@@ -40,7 +40,6 @@ The tasks are stored in a plain text file (`tasks.txt`) in the following format:
 
 task description|due date|completion status
 
-vbnet
 
 - The description is a string of the task's description.
 - The due date is in the `YYYY-MM-DD` format.
@@ -52,13 +51,14 @@ When you run the program, you'll be presented with the following menu:
 
 ===== Task Manager =====
 
-Add Task
-View Tasks
-Delete Task
-Mark Task Complete
-Save Tasks
-Exit Enter your choice:
-vbnet
+0. Add Task
+1. View Tasks
+2. Delete Task
+3. Mark Task Complete
+4. Save Tasks
+5. Exit
+Enter your choice:
+
 
 You can interact with the menu by typing the corresponding number for each option.
 
